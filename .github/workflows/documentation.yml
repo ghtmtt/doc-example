@@ -14,15 +14,23 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          pip install sphinx-intl
+      - name: Compile translations
+        run: |
+          sphinx-intl build -d locale
       - name: Sphinx build
         run: |
-          sphinx-build -b html -D language='en' doc _build/html/en
-          sphinx-build -b html -D language='it' doc _build/html/it
+          for lang in en it; do
+            sphinx-build -b html \
+              -D language=$lang \
+              doc _build/html/$lang
+          done
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html
+          publish_dir: _build/html/
           force_orphan: true
