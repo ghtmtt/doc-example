@@ -100,22 +100,10 @@ html_context['languages'] = languages
 # just to test the build on local machine
 # TODO path should be replaced by the final url
 # path = os.path.join(os.path.dirname(__file__), '_build', 'html')
-path = 'http://inopia.gitlab.irsa.cnr.it/inopia-docs'
+path = 'https://ghtmtt.github.io/doc-example/'
 
 # get the link of the documentation for every language
 html_context['supported_languages'] = [[l, path + '/' + l] for l in languages]
-
-html_context['downloads'] = [[l, path + '/' + l + '/inopia.pdf'] for l in languages]
-
-html_context['downloads'] = []
-for l in languages:
-    ll = []
-    ll.append(l)
-    ll.append(path + '/' + l + '/inopia.pdf')
-    html_context['downloads'].append(ll)
-
-
-# html_context['downloads'].append( ('pdf', [l, path + '/' + l + '/inopia.pdf'] for l in languages))
 
 rst_epilog = """
 .. |properties| image:: img/commons/properties.svg
