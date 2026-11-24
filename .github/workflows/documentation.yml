@@ -16,7 +16,8 @@ jobs:
           pip install -r requirements.txt
       - name: Sphinx build
         run: |
-          sphinx-build doc _build
+          sphinx-build -b html -D language='en' doc _build/html/en
+          sphinx-build -b html -D language='it' doc _build/html/it
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
