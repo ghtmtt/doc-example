@@ -97,7 +97,7 @@ html_context['languages'] = languages
 # just to test the build on local machine
 # TODO path should be replaced by the final url
 # path = os.path.join(os.path.dirname(__file__), '_build', 'html')
-path = 'https://ghtmtt.github.io/doc-example/'
+path = 'https://ghtmtt.github.io/doc-example'
 
 # get the link of the documentation for every language
 html_context['supported_languages'] = [[l, path + '/' + l] for l in languages]
