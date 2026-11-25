@@ -1,4 +1,3 @@
-
 name: Transifex 🗺
 
 on:
@@ -7,7 +6,7 @@ on:
     paths:
       - '**.py'
       - '**.ui'
-      - 'doc/**'
+      - 'docs/**'
 
 jobs:
   push-plugin-translations:
