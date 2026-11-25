@@ -1,15 +1,16 @@
+
 name: Transifex 🗺
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
     paths:
       - '**.py'
       - '**.ui'
+      - 'doc/**'
 
 jobs:
-  build:
+  push-plugin-translations:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'ghtmtt'
     steps:
@@ -25,3 +26,32 @@ jobs:
 
     - name: Push to Transifex
       run: qgis-plugin-ci push-translation ${{ secrets.TRANSIFEX_TOKEN }}
+
+  push-documentation-translations:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'ghtmtt'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install documentation dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install sphinx-intl
+        run: pip install sphinx-intl
+
+      - name: Extract documentation strings
+        run: sphinx-build -b gettext doc docs/locale
+
+      - name: Update English source catalogs
+        run: sphinx-intl update -p docs/locale -l en
+
+      - name: Push documentation sources to Transifex
+        uses: transifex/cli-action@v2
+        with:
+          token: ${{ secrets.TRANSIFEX_TOKEN }}
+          args: push -s
