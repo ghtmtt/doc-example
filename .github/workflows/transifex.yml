@@ -49,7 +49,8 @@ jobs:
         run: sphinx-build -b gettext docs docs/target/gettext
 
       - name: Update English source catalogs
-        run: sphinx-intl update -p docs/target/gettext -l en
+        working-directory: docs
+        run: sphinx-intl update -p target/gettext -l en
 
       - name: Push documentation sources to Transifex
         uses: transifex/cli-action@v2
