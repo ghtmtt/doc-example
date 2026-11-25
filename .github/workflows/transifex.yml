@@ -52,6 +52,11 @@ jobs:
         working-directory: docs
         run: sphinx-intl update -p target/gettext -l en
 
+      - name: Check PO file
+        run: |
+          sha256sum docs/locale/en/LC_MESSAGES/basic_usage.po
+          git status --short
+
       - name: Push documentation sources to Transifex
         uses: transifex/cli-action@v2
         with:
