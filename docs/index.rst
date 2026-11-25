@@ -23,6 +23,7 @@ Welcome to DataPlotly's documentation!
    violin.rst
    radar.rst
    from_console.rst
+   test.rst
 
 Indices and tables
 ==================
