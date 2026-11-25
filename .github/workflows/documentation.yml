@@ -24,6 +24,12 @@ jobs:
           pip install -r requirements.txt
           pip install sphinx-intl
 
+      - name: Pull translations from Transifex
+        uses: transifex/cli-action@v2
+        with:
+          token: ${{ secrets.TRANSIFEX_TOKEN }}
+          args: pull
+
       - name: Compile translations
         run: sphinx-intl build -d docs/locale
 
