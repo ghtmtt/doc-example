@@ -44,7 +44,7 @@ jobs:
         run: pip install sphinx-intl
 
       - name: Extract documentation strings
-        run: sphinx-build -b gettext doc docs/locale
+        run: sphinx-build -b gettext docs docs/locale
 
       - name: Update English source catalogs
         run: sphinx-intl update -p docs/locale -l en
