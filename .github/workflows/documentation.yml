@@ -1,6 +1,9 @@
 name: documentation
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -8,22 +11,28 @@ permissions:
 jobs:
   docs:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v7
+
       - uses: actions/setup-python@v7
+        with:
+          python-version: '3.10'
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           pip install sphinx-intl
+
       - name: Compile translations
-        run: |
-          sphinx-intl build -d locale
+        run: sphinx-intl build -d docs/locale
+
       - name: Sphinx build
         run: |
           for lang in en es fr it nl sv; do
             sphinx-build -b html \
               -D language=$lang \
-              docs _build/html/$lang
+              docs docs/target/html/$lang
           done
 
       - name: Deploy to GitHub Pages
@@ -32,5 +41,5 @@ jobs:
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html/
+          publish_dir: docs/target/html/
           force_orphan: true

@@ -59,7 +59,7 @@ release = '0'
 # for a list of supported languages.
 language = 'en'
 
-locale_dirs = ['locale']
+locale_dirs = ['locale/']
 gettext_compact = False
 
 # set up the languages list
@@ -91,7 +91,6 @@ html_context = {}
 html_context['display_lower_left'] = True
 html_context['languages'] = languages
 
-# just to test the build on local machine
 # TODO path should be replaced by the final url
 path = 'https://ghtmtt.github.io/doc-example'
 

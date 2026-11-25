@@ -4,27 +4,29 @@ on:
   push:
     branches: [main]
     paths:
-      - '**.py'
-      - '**.ui'
+      - 'DataPlotly/**/*.py'
+      - 'DataPlotly/**/*.ui'
       - 'docs/**'
+      - '.tx/config'
+      - '.github/workflows/transifex.yml'
 
 jobs:
   push-plugin-translations:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'ghtmtt'
+
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    - name: Install Python requirements
-      run: pip install qgis-plugin-ci
+      - name: Install qgis-plugin-ci
+        run: pip install qgis-plugin-ci
 
-    - name: Push to Transifex
-      run: qgis-plugin-ci push-translation ${{ secrets.TRANSIFEX_TOKEN }}
+      - name: Push plugin translations
+        run: qgis-plugin-ci push-translation ${{ secrets.TRANSIFEX_TOKEN }}
 
   push-documentation-translations:
     runs-on: ubuntu-latest
@@ -44,10 +46,10 @@ jobs:
         run: pip install sphinx-intl
 
       - name: Extract documentation strings
-        run: sphinx-build -b gettext docs docs/locale
+        run: sphinx-build -b gettext docs docs/target/gettext
 
       - name: Update English source catalogs
-        run: sphinx-intl update -p docs/locale -l en
+        run: sphinx-intl update -p docs/target/gettext -l en
 
       - name: Push documentation sources to Transifex
         uses: transifex/cli-action@v2
