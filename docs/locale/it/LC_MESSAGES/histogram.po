@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DataPlotly 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 10:18+0100\n"
+"POT-Creation-Date: 2026-11-25 13:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: matteo ghetta <matteo.ghetta@gmail.com>, 2017\n"
 "Language: it\n"
@@ -54,58 +54,58 @@ msgid ""
 msgstr ""
 
 #: ../../histogram.rst:22
-msgid "For example ::"
+msgid "For example"
 msgstr ""
 
-#: ../../histogram.rst:27
+#: ../../histogram.rst:28
 msgid "or, to use colors from a color ramp ::"
 msgstr ""
 
-#: ../../histogram.rst:36
+#: ../../histogram.rst:37
 msgid "``Stroke Color``: border color"
 msgstr "``Colore del bordo``: colore del bordo"
 
-#: ../../histogram.rst:38
+#: ../../histogram.rst:39
 msgid "``Stroke Width``: the width of the border"
 msgstr "``Spessore bordo``: spessore del bordo"
 
-#: ../../histogram.rst:40
+#: ../../histogram.rst:41
 msgid "``Transparency``: transparency level of the bar"
 msgstr "``Trasparenza``: livello di trasparenza delle barre"
 
-#: ../../histogram.rst:43
+#: ../../histogram.rst:44
 msgid "Plot Customizations"
 msgstr "Personalizzazioni grafico"
 
-#: ../../histogram.rst:44
+#: ../../histogram.rst:45
 msgid "``Show Legend``: show the legend of the current plot"
 msgstr "``Mostra legenda``: mostra la legenda del grafico"
 
-#: ../../histogram.rst:46
+#: ../../histogram.rst:47
 msgid "``Horizontal Legend``: check if you want to have an horizontal legend"
 msgstr "``Legenda orizzontale``: spunta se vuoi che la legenda sia orizzontale"
 
-#: ../../histogram.rst:48
+#: ../../histogram.rst:49
 msgid "``Plot Title``: the plot title"
 msgstr "``Titolo grafico``: titolo del grafico"
 
-#: ../../histogram.rst:50
+#: ../../histogram.rst:51
 msgid "``Legend Title``: the title of the legend"
 msgstr "``Titolo legenda``: il titolo della legenda"
 
-#: ../../histogram.rst:52
+#: ../../histogram.rst:53
 msgid "``X Label``: X label text"
 msgstr "``Etichetta X``: testo dell'asse X"
 
-#: ../../histogram.rst:54
+#: ../../histogram.rst:55
 msgid "``Invert X Axis``: check if you want to invert the ordering of the x axis"
 msgstr "``Inverti asse X``: spunta se vuoi invertire l'ordine dell'asse X"
 
-#: ../../histogram.rst:56
+#: ../../histogram.rst:57
 msgid "``Invert Y Axis``: check if you want to invert the ordering of the y axis"
 msgstr "``Inverti asse Y``: spunta se vuoi invertire l'ordine dell'asse Y"
 
-#: ../../histogram.rst:58
+#: ../../histogram.rst:59
 msgid ""
 "``Bar Orientation``: the orientation of the bar, either *Horizontal* or "
 "*Vertical*"
@@ -113,17 +113,17 @@ msgstr ""
 "``Orientamento barra``: orientamento delle barre: *orizzontale* o "
 "*verticale*"
 
-#: ../../histogram.rst:60
+#: ../../histogram.rst:61
 msgid "``Bar Mode``: choose if you want to group, stack or overlay the data"
 msgstr ""
 "``Modalità barra``: scegli se vuoi raggruppare, impilare o sovrapporre i "
 "dati"
 
-#: ../../histogram.rst:62
+#: ../../histogram.rst:63
 msgid "``Normalization``: different type of bins calculations are available"
 msgstr "``Normalizzazione``: sono disponibili diversi tipi di normalizzazione"
 
-#: ../../histogram.rst:64
+#: ../../histogram.rst:65
 msgid ""
 "``Cumulative Histogram``: check if you want to create a cumulative "
 "histogram"
@@ -131,7 +131,7 @@ msgstr ""
 "``Istogramma cumulativo``: spunta se vuoi creare un istogramma unico "
 "cumulativo"
 
-#: ../../histogram.rst:66
+#: ../../histogram.rst:67
 msgid ""
 "``Invert Histogram Direction``: check if you want to invert the histogram"
 " direction (only if cumulative option is chosen)"
@@ -140,7 +140,7 @@ msgstr ""
 "dell'istogramma (disponibile solo se è stata scelta l'opzione "
 "``Istogramma Cumulativo``"
 
-#: ../../histogram.rst:68
+#: ../../histogram.rst:69
 msgid ""
 "``Choose manually the bins``: check if want to choose manually the bins "
 "number and add a numeric value in the box"
@@ -148,7 +148,7 @@ msgstr ""
 "``Scegli il numero delle barre ``: spunta e inserisci un numero "
 "appropriato se vuoi scegliere manualmente il numero delle barre"
 
-#: ../../histogram.rst:74
+#: ../../histogram.rst:75
 msgid ""
 "``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 "
 "(maximum space)"
@@ -161,4 +161,7 @@ msgstr ""
 
 #~ msgid "``Marker Color``: color of the bar"
 #~ msgstr "``Colore barre``: colore delle barre "
+
+#~ msgid "For example ::"
+#~ msgstr ""
 
