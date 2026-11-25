@@ -91,7 +91,6 @@ html_context = {}
 html_context['display_lower_left'] = True
 html_context['languages'] = languages
 
-# just to test the build on local machine
 # TODO path should be replaced by the final url
 path = 'https://ghtmtt.github.io/doc-example'
 

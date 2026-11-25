@@ -56,4 +56,4 @@ jobs:
         uses: transifex/cli-action@v2
         with:
           token: ${{ secrets.TRANSIFEX_TOKEN }}
-          args: push -s
+          args: push -s --workers 1
