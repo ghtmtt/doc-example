@@ -97,3 +97,4 @@ path = 'https://ghtmtt.github.io/doc-example'
 
 # get the link of the documentation for every language
 html_context['supported_languages'] = [[l, path + '/' + l] for l in languages]
+
