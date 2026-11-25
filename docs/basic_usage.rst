@@ -13,19 +13,6 @@ If you want to change some setting, e.g. the marker color or size, the ``x``
 column, go ahead and the hit the ``Update Plot`` button: the plot is then
 updated in the plot canvas.
 
-DataPlotly is a docket widget meaning that you can move it within the QGIS interface.
-It is made up by 5 different widgets:
-
-|properties| **fundamental plot settings**
-
-|custom| **additional plot customizations**
-
-|plot| **plot canvas**
-
-|help| **user guide and help for each plot**
-
-|code| **raw html code**
-
 .. image:: /img/basic_usage/overview.png
   :scale: 50%
 

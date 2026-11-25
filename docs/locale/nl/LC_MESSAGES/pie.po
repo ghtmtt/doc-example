@@ -1,64 +1,101 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017, Matteo Ghetta
 # This file is distributed under the same license as the DataPlotly package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DataPlotly 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-01 11:11+0100\n"
+"POT-Creation-Date: 2026-11-25 10:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Leon van der Meulen, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/dataplotly/teams/79225/nl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
+"Language-Team: Dutch "
+"(https://www.transifex.com/dataplotly/teams/79225/nl/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-#: ../../source/pie.rst:4
+#: ../../pie.rst:4
 msgid "Pie Plot"
 msgstr "Taartdiagram"
 
-#: ../../source/pie.rst:5
+#: ../../pie.rst:5
 msgid ""
-"Here you will find the guide to every parameter of the pie plot. If you need"
-" more generic information please see :ref:`basic_usage`."
+"Here you will find the guide to every parameter of the pie plot. If you "
+"need more generic information please see :ref:`basic_usage`."
 msgstr ""
 "Hier kun je de handleiding voor iedere parameter van het taartdiagram "
 "vinden. Indien je meer generieke informatie zoekt, zie :ref:`basic_usage`"
 
-#: ../../source/pie.rst:12
+#: ../../pie.rst:12
 msgid "Plot Properties"
 msgstr "Diagram eigenschappen"
 
-#: ../../source/pie.rst:13
-msgid ""
-"``Layer``: the combobox will display all the vector layers loaded in QGIS"
+#: ../../pie.rst:13
+msgid "``Layer``: the combobox will display all the vector layers loaded in QGIS"
 msgstr "``Layer``: de keuzelijst toont alle in QGIS ingeladen vector lagen"
 
-#: ../../source/pie.rst:15
-msgid "``Grouping``: the grouping field"
-msgstr "``Grouping``:  het groepeer veld"
+#: ../../pie.rst:15
+msgid ""
+"``Grouping``: features with the same value in the Grouping field are "
+"assigned to the same pie segment"
+msgstr ""
 
-#: ../../source/pie.rst:17
-msgid "``Y Field``: the Y field"
-msgstr "``Y Field``: het Y veld"
+#: ../../pie.rst:18
+msgid ""
+"``Y Field``: the Y field determines the size of the pie segment. If "
+"features are assigned to the same pie segment because they have the same "
+"value in the Grouping field the corresponding values in the Y field are "
+"summed up to determine the size of the pie segment. To create a pie chart"
+" displaying the number of features belonging to each pie segment enter a "
+"`1` instead of a field name"
+msgstr ""
 
-#: ../../source/pie.rst:20
+#: ../../pie.rst:25
+msgid ""
+"``Marker color``: the color used for filling the first pie segment. "
+"Subsequent pie segments are filled using the default Plotly color scale."
+msgstr ""
+
+#: ../../pie.rst:28
+msgid ""
+"To control the color of the individual pie segments use an expression "
+"yielding color strings depending on the value in the Grouping field."
+msgstr ""
+
+#: ../../pie.rst:31
+msgid ""
+"For example, to create a pie chart showing the population in each "
+"continent using the `Natural Earth <https://www.naturalearthdata.com/>`_ "
+"`ne_110m_admin_0_countries` layer, choose `CONTINENT` as the Grouping "
+"field and `POP_EST` as the Y field. Then, to set the colors for the pie "
+"segments use the following expression in the Marker color field::"
+msgstr ""
+
+#: ../../pie.rst:51
 msgid "Plot Customizations"
 msgstr "Diagram aanpassingen"
 
-#: ../../source/pie.rst:21
+#: ../../pie.rst:52
 msgid "``Show Legend``: show the legend of the current plot"
 msgstr "``Show Legend``: toon de legenda van het huidige diagram"
 
-#: ../../source/pie.rst:23
+#: ../../pie.rst:54
 msgid "``Legend Title``: the title of the legend"
 msgstr "``Legend Title``: de titel van de legenda"
 
-#: ../../source/pie.rst:25
+#: ../../pie.rst:56
 msgid "``Horizontal Legend``: check if you want to have an horizontal legend"
 msgstr "``Horizontal Legend``:  vink aan voor een horizontale legenda"
+
+#~ msgid "``Grouping``: the grouping field"
+#~ msgstr "``Grouping``:  het groepeer veld"
+
+#~ msgid "``Y Field``: the Y field"
+#~ msgstr "``Y Field``: het Y veld"
+

@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Matteo Ghetta
+# This file is distributed under the same license as the DataPlotly package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DataPlotly 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 10:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sv\n"
+"Language-Team: sv <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../radar.rst:4
+msgid "Radar Plot"
+msgstr ""
+
+#: ../../radar.rst:5
+msgid ""
+"Here you will find the guide to every parameter of the radar plot. If you"
+" need more generic information please see :ref:`basic_usage`."
+msgstr ""
+
+#: ../../radar.rst:8
+msgid ""
+"This plot does not behave like other DataPlotly plots in the way that "
+"each layer feature will generate an entire trace (not only one point) "
+"built with the ``Y fields`` values (see below)."
+msgstr ""
+
+#: ../../radar.rst:17
+msgid "radar plot with a threshold enabled (value=2, line type=dash)"
+msgstr ""
+
+#: ../../radar.rst:21
+msgid "Plot Properties"
+msgstr ""
+
+#: ../../radar.rst:22
+msgid "``Layer``: the combobox will display all the vector layers loaded in QGIS"
+msgstr ""
+
+#: ../../radar.rst:24
+msgid "``Y label``: the field that will be the label for each radar branch"
+msgstr ""
+
+#: ../../radar.rst:26
+msgid "``Y fields``: the fields that will be the radar plot branches"
+msgstr ""
+
+#: ../../radar.rst:28
+msgid "``Legend title``: the title of the legend"
+msgstr ""
+
+#: ../../radar.rst:30
+msgid "``Marker size``: the size of the marker"
+msgstr ""
+
+#: ../../radar.rst:32
+msgid ""
+"``Marker type``: choose between **Points**, **Lines** or **Points and "
+"Lines**"
+msgstr ""
+
+#: ../../radar.rst:34
+msgid "``Fill``: choose if the radar polygons are filled or not"
+msgstr ""
+
+#: ../../radar.rst:36
+msgid "``Threshold``: choose to add a constant value line in the plot"
+msgstr ""
+
+#: ../../radar.rst:38
+msgid ""
+"``Threshold line type``: if ``Marker type`` is **Lines** or **Points and "
+"Lines**, the line type for the Threshold line"
+msgstr ""
+
+#: ../../radar.rst:40
+msgid "``Threshold value``: the constant value for the threshold"
+msgstr ""
+
+#: ../../radar.rst:42
+msgid "``Point Type`` or ``Line Type`` depending on the ``Marker Type`` chosen"
+msgstr ""
+
+#: ../../radar.rst:44
+msgid ""
+"``Color scale``: if ``Marker type`` is **Lines** or **Points and Lines**,"
+" the color scale for the lines"
+msgstr ""
+
+#: ../../radar.rst:46
+msgid "``Opacity``: transparency level of all the points/lines"
+msgstr ""
+
+#: ../../radar.rst:49
+msgid "Plot Customizations"
+msgstr ""
+
+#: ../../radar.rst:50
+msgid "``Show Legend``: show the legend of the current plot"
+msgstr ""
+
+#: ../../radar.rst:52
+msgid "``Plot Title``: the plot title"
+msgstr ""
+
+#: ../../radar.rst:54
+msgid "``Title font``: the title font"
+msgstr ""
+
+#: ../../radar.rst:56
+msgid "``X ticks font``: the font along the value axis"
+msgstr ""
+
+#: ../../radar.rst:58
+msgid "``Y label font``: the font of the branches labels"
+msgstr ""
+

@@ -97,16 +97,3 @@ path = 'https://ghtmtt.github.io/doc-example'
 
 # get the link of the documentation for every language
 html_context['supported_languages'] = [[l, path + '/' + l] for l in languages]
-
-rst_epilog = """
-.. |properties| image:: img/commons/properties.svg
-    :width: 20em
-.. |custom| image:: img/commons/custom.svg
-    :width: 20em
-.. |plot| image:: img/commons/plot.svg
-    :width: 20em
-.. |help| image:: img/commons/help.svg
-    :width: 20em
-.. |code| image:: img/commons/code.svg
-    :width: 20em
-"""

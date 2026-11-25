@@ -1,103 +1,115 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017, Matteo Ghetta
 # This file is distributed under the same license as the DataPlotly package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: DataPlotly 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-01 11:11+0100\n"
+"POT-Creation-Date: 2026-11-25 10:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Leon van der Meulen, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/dataplotly/teams/79225/nl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
+"Language-Team: Dutch "
+"(https://www.transifex.com/dataplotly/teams/79225/nl/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-#: ../../source/histogram.rst:4
+#: ../../histogram.rst:4
 msgid "Histogram"
 msgstr "Histogram"
 
-#: ../../source/histogram.rst:5
+#: ../../histogram.rst:5
 msgid ""
 "Here you will find the guide to every parameter of the histogram. If you "
 "need more generic information please see :ref:`basic_usage`."
 msgstr ""
-"Hier kun je de handleiding voor iedere parameter van het histogram vinden. "
-"Indien je meer generieke informatie zoekt, zie :ref:`basic_usage`"
+"Hier kun je de handleiding voor iedere parameter van het histogram "
+"vinden. Indien je meer generieke informatie zoekt, zie :ref:`basic_usage`"
 
-#: ../../source/histogram.rst:12
+#: ../../histogram.rst:12
 msgid "Plot Properties"
 msgstr "Diagram eigenschappen"
 
-#: ../../source/histogram.rst:13
-msgid ""
-"``Layer``: the combobox will display all the vector layers loaded in QGIS"
+#: ../../histogram.rst:13
+msgid "``Layer``: the combobox will display all the vector layers loaded in QGIS"
 msgstr "``Layer``: de keuzelijst toont alle in QGIS ingeladen vector lagen"
 
-#: ../../source/histogram.rst:15
-msgid "``X``: the X field"
-msgstr "``X``: het X veld"
+#: ../../histogram.rst:15
+msgid ""
+"``X``: the values in this field will be binned and the count in each bin "
+"will be represented as the length of the bars"
+msgstr ""
 
-#: ../../source/histogram.rst:17
-msgid "``Marker Color``: color of the bar"
-msgstr "``Marker Color``: de kleur van het diagram"
+#: ../../histogram.rst:18
+msgid ""
+"``Marker Color``: the color of the bars. To use different colors for "
+"individual bars, enter an expression that returns an array of color "
+"definition strings with as many elements as there are bars"
+msgstr ""
 
-#: ../../source/histogram.rst:19
+#: ../../histogram.rst:22
+msgid "For example ::"
+msgstr ""
+
+#: ../../histogram.rst:27
+msgid "or, to use colors from a color ramp ::"
+msgstr ""
+
+#: ../../histogram.rst:36
 msgid "``Stroke Color``: border color"
 msgstr "``Stroke Color``: kleur van de lijn"
 
-#: ../../source/histogram.rst:21
+#: ../../histogram.rst:38
 msgid "``Stroke Width``: the width of the border"
 msgstr "``Stroke Width``: de dikte van de rand"
 
-#: ../../source/histogram.rst:23
+#: ../../histogram.rst:40
 msgid "``Transparency``: transparency level of the bar"
 msgstr "``Transparency``: transparantieniveau van de staaf"
 
-#: ../../source/histogram.rst:26
+#: ../../histogram.rst:43
 msgid "Plot Customizations"
 msgstr "Diagram aanpassingen"
 
-#: ../../source/histogram.rst:27
+#: ../../histogram.rst:44
 msgid "``Show Legend``: show the legend of the current plot"
 msgstr "``Show Legend``: toon de legenda van het huidige diagram"
 
-#: ../../source/histogram.rst:29
+#: ../../histogram.rst:46
 msgid "``Horizontal Legend``: check if you want to have an horizontal legend"
 msgstr "``Horizontal Legend``:  vink aan voor een horizontale legenda"
 
-#: ../../source/histogram.rst:31
+#: ../../histogram.rst:48
 msgid "``Plot Title``: the plot title"
 msgstr "``Plot Title``: titel van het diagram"
 
-#: ../../source/histogram.rst:33
+#: ../../histogram.rst:50
 msgid "``Legend Title``: the title of the legend"
 msgstr "``Legend Title``: de titel van de legenda"
 
-#: ../../source/histogram.rst:35
+#: ../../histogram.rst:52
 msgid "``X Label``: X label text"
 msgstr "``X Label``: X label tekst"
 
-#: ../../source/histogram.rst:37
-msgid ""
-"``Invert X Axis``: check if you want to invert the ordering of the x axis"
+#: ../../histogram.rst:54
+msgid "``Invert X Axis``: check if you want to invert the ordering of the x axis"
 msgstr ""
 "``Invert X Axis``: vink aan wanneer je de sortering van de X-as wilt "
 "omdraaien "
 
-#: ../../source/histogram.rst:39
-msgid ""
-"``Invert Y Axis``: check if you want to invert the ordering of the y axis"
+#: ../../histogram.rst:56
+msgid "``Invert Y Axis``: check if you want to invert the ordering of the y axis"
 msgstr ""
 "``Invert Y Axis``: vink aan wanneer je de sortering van de Y-as wilt "
 "omdraaien "
 
-#: ../../source/histogram.rst:41
+#: ../../histogram.rst:58
 msgid ""
 "``Bar Orientation``: the orientation of the bar, either *Horizontal* or "
 "*Vertical*"
@@ -105,39 +117,47 @@ msgstr ""
 "``Bar Orientation``:  de oriëntatie van de staaf, *horizontaal* of "
 "*verticaal*"
 
-#: ../../source/histogram.rst:43
+#: ../../histogram.rst:60
 msgid "``Bar Mode``: choose if you want to group, stack or overlay the data"
 msgstr ""
 "``Bar Mode``: kies of je wilt groeperen, stapelen of de data over elkaar "
 "wilt leggen"
 
-#: ../../source/histogram.rst:45
+#: ../../histogram.rst:62
 msgid "``Normalization``: different type of bins calculations are available"
 msgstr ""
 "``Normalization``:  verschillende mogelijkheden voor het berekenen van "
 "klassen zijn beschikbaar"
 
-#: ../../source/histogram.rst:47
+#: ../../histogram.rst:64
 msgid ""
-"``Cumulative Histogram``: check if you want to create a cumulative histogram"
+"``Cumulative Histogram``: check if you want to create a cumulative "
+"histogram"
 msgstr ""
 
-#: ../../source/histogram.rst:49
+#: ../../histogram.rst:66
 msgid ""
-"``Invert Histogram Direction``: check if you want to invert the histogram "
-"direction (only if cumulative option is chosen)"
+"``Invert Histogram Direction``: check if you want to invert the histogram"
+" direction (only if cumulative option is chosen)"
 msgstr ""
 
-#: ../../source/histogram.rst:51
+#: ../../histogram.rst:68
 msgid ""
 "``Choose manually the bins``: check if want to choose manually the bins "
 "number and add a numeric value in the box"
 msgstr ""
-"``Choose manually the bins``: vink aan wanneer je handmatig de klassen wilt "
-"kiezen en vul een numerieke waarde in."
+"``Choose manually the bins``: vink aan wanneer je handmatig de klassen "
+"wilt kiezen en vul een numerieke waarde in."
 
-#: ../../source/histogram.rst:57
+#: ../../histogram.rst:74
 msgid ""
 "``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 "
 "(maximum space)"
 msgstr ""
+
+#~ msgid "``X``: the X field"
+#~ msgstr "``X``: het X veld"
+
+#~ msgid "``Marker Color``: color of the bar"
+#~ msgstr "``Marker Color``: de kleur van het diagram"
+
