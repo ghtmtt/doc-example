@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DataPlotly 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 10:18+0100\n"
+"POT-Creation-Date: 2026-11-25 13:02+0100\n"
 "PO-Revision-Date: 2026-11-25 10:48+0100\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
-"X-Generator: Poedit 3.10\n"
 
 #: ../../histogram.rst:4
 msgid "Histogram"
@@ -25,11 +25,11 @@ msgstr "Histogram"
 
 #: ../../histogram.rst:5
 msgid ""
-"Here you will find the guide to every parameter of the histogram. If you need "
-"more generic information please see :ref:`basic_usage`."
+"Here you will find the guide to every parameter of the histogram. If you "
+"need more generic information please see :ref:`basic_usage`."
 msgstr ""
-"Here you will find the guide to every parameter of the histogram. If you need "
-"more generic information please see :ref:`basic_usage`."
+"Here you will find the guide to every parameter of the histogram. If you "
+"need more generic information please see :ref:`basic_usage`."
 
 #: ../../histogram.rst:12
 msgid "Plot Properties"
@@ -41,75 +41,76 @@ msgstr "``Layer``: the combobox will display all the vector layers loaded in QGI
 
 #: ../../histogram.rst:15
 msgid ""
-"``X``: the values in this field will be binned and the count in each bin will "
-"be represented as the length of the bars"
+"``X``: the values in this field will be binned and the count in each bin "
+"will be represented as the length of the bars"
 msgstr ""
-"``X``: the values in this field will be binned and the count in each bin will "
-"be represented as the length of the bars"
+"``X``: the values in this field will be binned and the count in each bin "
+"will be represented as the length of the bars"
 
 #: ../../histogram.rst:18
 msgid ""
-"``Marker Color``: the color of the bars. To use different colors for individual "
-"bars, enter an expression that returns an array of color definition strings "
-"with as many elements as there are bars"
+"``Marker Color``: the color of the bars. To use different colors for "
+"individual bars, enter an expression that returns an array of color "
+"definition strings with as many elements as there are bars"
 msgstr ""
-"``Marker Color``: the color of the bars. To use different colors for individual "
-"bars, enter an expression that returns an array of color definition strings "
-"with as many elements as there are bars"
+"``Marker Color``: the color of the bars. To use different colors for "
+"individual bars, enter an expression that returns an array of color "
+"definition strings with as many elements as there are bars"
 
 #: ../../histogram.rst:22
-msgid "For example ::"
+#, fuzzy
+msgid "For example"
 msgstr "For example ::"
 
-#: ../../histogram.rst:27
+#: ../../histogram.rst:28
 msgid "or, to use colors from a color ramp ::"
 msgstr "or, to use colors from a color ramp ::"
 
-#: ../../histogram.rst:36
+#: ../../histogram.rst:37
 msgid "``Stroke Color``: border color"
 msgstr "``Stroke Color``: border color"
 
-#: ../../histogram.rst:38
+#: ../../histogram.rst:39
 msgid "``Stroke Width``: the width of the border"
 msgstr "``Stroke Width``: the width of the border"
 
-#: ../../histogram.rst:40
+#: ../../histogram.rst:41
 msgid "``Transparency``: transparency level of the bar"
 msgstr "``Transparency``: transparency level of the bar"
 
-#: ../../histogram.rst:43
+#: ../../histogram.rst:44
 msgid "Plot Customizations"
 msgstr "Plot Customizations"
 
-#: ../../histogram.rst:44
+#: ../../histogram.rst:45
 msgid "``Show Legend``: show the legend of the current plot"
 msgstr "``Show Legend``: show the legend of the current plot"
 
-#: ../../histogram.rst:46
+#: ../../histogram.rst:47
 msgid "``Horizontal Legend``: check if you want to have an horizontal legend"
 msgstr "``Horizontal Legend``: check if you want to have an horizontal legend"
 
-#: ../../histogram.rst:48
+#: ../../histogram.rst:49
 msgid "``Plot Title``: the plot title"
 msgstr "``Plot Title``: the plot title"
 
-#: ../../histogram.rst:50
+#: ../../histogram.rst:51
 msgid "``Legend Title``: the title of the legend"
 msgstr "``Legend Title``: the title of the legend"
 
-#: ../../histogram.rst:52
+#: ../../histogram.rst:53
 msgid "``X Label``: X label text"
 msgstr "``X Label``: X label text"
 
-#: ../../histogram.rst:54
+#: ../../histogram.rst:55
 msgid "``Invert X Axis``: check if you want to invert the ordering of the x axis"
 msgstr "``Invert X Axis``: check if you want to invert the ordering of the x axis"
 
-#: ../../histogram.rst:56
+#: ../../histogram.rst:57
 msgid "``Invert Y Axis``: check if you want to invert the ordering of the y axis"
 msgstr "``Invert Y Axis``: check if you want to invert the ordering of the y axis"
 
-#: ../../histogram.rst:58
+#: ../../histogram.rst:59
 msgid ""
 "``Bar Orientation``: the orientation of the bar, either *Horizontal* or "
 "*Vertical*"
@@ -117,46 +118,49 @@ msgstr ""
 "``Bar Orientation``: the orientation of the bar, either *Horizontal* or "
 "*Vertical*"
 
-#: ../../histogram.rst:60
+#: ../../histogram.rst:61
 msgid "``Bar Mode``: choose if you want to group, stack or overlay the data"
 msgstr "``Bar Mode``: choose if you want to group, stack or overlay the data"
 
-#: ../../histogram.rst:62
+#: ../../histogram.rst:63
 msgid "``Normalization``: different type of bins calculations are available"
 msgstr "``Normalization``: different type of bins calculations are available"
 
-#: ../../histogram.rst:64
+#: ../../histogram.rst:65
 msgid ""
-"``Cumulative Histogram``: check if you want to create a cumulative histogram"
+"``Cumulative Histogram``: check if you want to create a cumulative "
+"histogram"
 msgstr ""
-"``Cumulative Histogram``: check if you want to create a cumulative histogram"
+"``Cumulative Histogram``: check if you want to create a cumulative "
+"histogram"
 
-#: ../../histogram.rst:66
+#: ../../histogram.rst:67
 msgid ""
-"``Invert Histogram Direction``: check if you want to invert the histogram "
-"direction (only if cumulative option is chosen)"
+"``Invert Histogram Direction``: check if you want to invert the histogram"
+" direction (only if cumulative option is chosen)"
 msgstr ""
-"``Invert Histogram Direction``: check if you want to invert the histogram "
-"direction (only if cumulative option is chosen)"
+"``Invert Histogram Direction``: check if you want to invert the histogram"
+" direction (only if cumulative option is chosen)"
 
-#: ../../histogram.rst:68
+#: ../../histogram.rst:69
 msgid ""
-"``Choose manually the bins``: check if want to choose manually the bins number "
-"and add a numeric value in the box"
+"``Choose manually the bins``: check if want to choose manually the bins "
+"number and add a numeric value in the box"
 msgstr ""
-"``Choose manually the bins``: check if want to choose manually the bins number "
-"and add a numeric value in the box"
+"``Choose manually the bins``: check if want to choose manually the bins "
+"number and add a numeric value in the box"
 
-#: ../../histogram.rst:74
+#: ../../histogram.rst:75
 msgid ""
-"``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 (maximum "
-"space)"
+"``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 "
+"(maximum space)"
 msgstr ""
-"``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 (maximum "
-"space)"
+"``Bar gap``: choose the space between the gaps, from 0 (no space) to 1 "
+"(maximum space)"
 
 #~ msgid "``X``: the X field"
 #~ msgstr "``X``: the X field"
 
 #~ msgid "``Marker Color``: color of the bar"
 #~ msgstr "``Marker Color``: color of the bar"
+
