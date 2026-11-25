@@ -25,10 +25,11 @@ jobs:
           pip install sphinx-intl
 
       - name: Pull translations from Transifex
+        if: ${{ github.event_name != 'pull_request' }}
         uses: transifex/cli-action@v2
         with:
           token: ${{ secrets.TRANSIFEX_TOKEN }}
-          args: pull
+          args: pull --force
 
       - name: Compile translations
         run: sphinx-intl build -d docs/locale
