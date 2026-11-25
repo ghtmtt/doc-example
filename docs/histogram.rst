@@ -20,6 +20,7 @@ bars, enter an expression that returns an array of color definition strings
 with as many elements as there are bars
 
 For example
+
 ::
 
  array('red','green','blue','yellow','purple')
